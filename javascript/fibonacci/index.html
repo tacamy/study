@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+</head>
+<body>
+<script>
+  var f = function(n) {
+    if (n <= 0) {
+      return 0;
+    }
+    else if (n === 1) {
+      return 1;
+    }
+    else {
+      return f(n - 2) + f(n - 1);
+    }
+  }
+</script>
+</body>
+</html>
